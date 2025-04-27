@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://media.istockphoto.com/id/1348053127/photo/sunset-on-the-beach.jpg?s=612x612&w=0&k=20&c=Fw7UkfLN6kbPsg3g9Lb1bNOl9LQ6jucj6zOY2Fcc38E=');
+    background-repeat: no-repeat;
+    background-size:700px;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.3); /* transparent background for input area */
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city-input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Force this color */
+    color: white !important; /* Force white text */
+    font-family: 'Poppins', sans-serif;
+}
+
+#search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: rgba(0, 0, 0, 0.10); 
+}
+
+#weather-result {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5); ;
+}
+#city-input:-webkit-autofill,
+#city-input:-webkit-autofill:hover, 
+#city-input:-webkit-autofill:focus,
+#city-input:-webkit-autofill:active,
+#city-input:autofill,
+#city-input:autofill:hover,
+#city-input:autofill:focus,
+#city-input:autofill:active,
+#city-input:focus,
+#city-input:active,
+#city-input:hover,
+#city-input:valid,
+#city-input:invalid,
+#city-input:enabled,
+#city-input:disabled {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-image: none !important;
+    color: white !important;
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.5) inset !important;
+    -webkit-text-fill-color: white !important;
+}
